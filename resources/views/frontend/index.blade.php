@@ -31,7 +31,7 @@
         </div>
 
         <div class="hero-right">
-            <img src="{{ asset('assets/frontend/images/main.png') }}" alt="Designer Image">
+            <img src="{{ asset('assets/frontend/images/main.webp') }}" alt="Designer Image">
         </div>
     </section>
 
@@ -41,7 +41,7 @@
 
             <!-- LEFT SIDE IMAGE -->
             <div class="about-img">
-                <img src="{{ asset('assets/frontend/images/roof.jpeg') }}" alt="">
+                <img src="{{ asset('assets/frontend/images/roof.webp') }}" alt="">
             </div>
 
             <!-- RIGHT SIDE CONTENT -->
@@ -319,7 +319,7 @@
 
 
     <!-- CONTACT -->
-    <section id="contact" class="contact-section py-5 bg-light">
+    <section id="contact" class="contact-section py-3 bg-light">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Left Column: Form -->
@@ -345,7 +345,7 @@
                 </div>
 
                 <!-- Right Column: Image / Contact Info -->
-                <div class="col-lg-6 text-center text-lg-start">
+                <div class="col-lg-6 text-start text-lg-start">
                     <img src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
                         alt="Contact Image" class="img-fluid rounded mb-4 shadow">
                     <div class="contact-info">

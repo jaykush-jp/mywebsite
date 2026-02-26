@@ -4,7 +4,7 @@
 
             <!-- Left Side Logo -->
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="{{ asset('assets/frontend/images/png.png') }}" alt="Logo" width="100" height="60" class="me-2">
+                <img src="{{ asset('assets/frontend/images/logo.webp') }}" alt="Logo" width="100" height="60" class="me-2">
                 {{-- <strong>Your Brand</strong> --}}
             </a>
 

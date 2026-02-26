@@ -1,17 +1,17 @@
 <footer class="custom-footer">
 
     <div class="container py-4">
-        <div class="row align-items-center">
+        <div class="row align-items-start">
 
             <!-- LEFT IMAGE -->
-            <div class="col-md-3 text-center text-md-start mb-3 mb-md-0">
+            <div class="col-md-3 text-end text-md-start mb-3 mb-md-0">
                 <div class="profile-circle">
-                    <img src="{{ asset('assets/frontend/images/dp.jpeg') }}" alt="Profile Photo" class="profile-img">
+                    <img src="{{ asset('assets/frontend/images/dp.webp') }}" alt="Profile Photo" class="profile-img">
                 </div>
             </div>
 
             <!-- CENTER CONTENT -->
-            <div class="col-md-6 text-center text-md-start">
+            <div class="col-md-6 text-start text-md-start">
                 <h4 class="name">Jay <span>Prakash</span></h4>
                 <p class="position">Full Stack Developer</p>
 
@@ -42,9 +42,9 @@
             </div>
 
             <!-- RIGHT LOGO -->
-            <div class="col-md-3 text-center text-md-end">
-                <h5 class="brand">BRAND NAME</h5>
-                <p class="tagline">YOUR TAGLINE HERE</p>
+            <div class="col-md-3 text-end text-md-end">
+                <h5 class="brand">JayKushwah</h5>
+                <p class="tagline"><i>Future in Progress.</i></p>
                 <div class="brand-bars">
                     <span></span><span></span><span></span>
                 </div>
@@ -57,12 +57,12 @@
     <div class="wave-wrapper">
         <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
             <!-- BLACK WAVE -->
-            <path fill="#111"
+            <path fill="#00C6FF"
                 d="M0,80 C220,120 340,0 560,40 C780,80 900,120 1120,80 C1260,60 1360,70 1440,80 L1440,120 L0,120 Z">
             </path>
 
             <!-- YELLOW STRAIGHT BAR -->
-            <rect y="95" width="1440" height="25" fill="#f4b400"></rect>
+            {{-- <rect y="95" width="1440" height="25" fill="#0A74DA"></rect> --}}
         </svg>
     </div>
 
