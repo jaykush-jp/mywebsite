@@ -359,7 +359,13 @@ header {
     display: block;
 }
 
-.about-content h3 {
+.about-content h2 {
+    color: #1F4E79;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.about-content h4 {
     color: #1F4E79;
     font-weight: 700;
 }
@@ -468,7 +474,7 @@ header {
 }
 
 .service-icon {
-    background: #007bff;
+    /* background: #1F4E79; */
     width: 60px;
     height: 60px;
     padding: 12px;
@@ -486,7 +492,7 @@ header {
 }
 
 .service-card h3 {
-    color: #007bff;
+    color: #1F4E79;
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 18px;
@@ -504,7 +510,7 @@ header {
 .read-more {
     font-weight: 600;
     font-size: 14px;
-    color: #007bff;
+    color: #1F4E79;
     text-decoration: none;
 }
 
@@ -520,7 +526,7 @@ header {
 }
 
 .contact-me a {
-    color: #007bff;
+    color: #1F4E79;
     font-weight: 700;
     text-decoration: none;
 }
@@ -713,6 +719,49 @@ header {
     to {
         opacity: 1;
         transform: scale(1);
+    }
+}
+
+/* Counter */
+.counter-section{
+    background: linear-gradient(45deg, #1F4E79, #4BA3FF);
+}
+
+.counter-box {
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+
+.counter-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.counter-icon {
+    margin-bottom: 8px;
+    color: #4BA3FF;
+    /* Gold color for icon */
+    transition: transform 0.3s;
+}
+
+.counter-box:hover .counter-icon {
+    transform: rotate(15deg);
+}
+
+h2.counter {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+p.fw-bold {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+@media(max-width:768px) {
+    h2.counter {
+        font-size: 2rem;
     }
 }
 

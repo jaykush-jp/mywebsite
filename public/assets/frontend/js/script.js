@@ -1,3 +1,4 @@
+// Hero Section
 const text = ["Full Stack Developer", "Laravel Developer", "Frontend Developer"];
 let index = 0;
 let charIndex = 0;
@@ -70,7 +71,7 @@ cards.forEach((card) => {
     observer.observe(card);
 });
 
-// Counter Script
+// < !--Counter Animation JS-- >
 
 const counters = document.querySelectorAll('.counter');
 
@@ -80,7 +81,6 @@ counters.forEach(counter => {
         const count = +counter.innerText;
 
         const speed = 50; // Lower = faster
-
         const increment = target / speed;
 
         if (count < target) {
